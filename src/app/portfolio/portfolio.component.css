@@ -1,0 +1,22 @@
+.linestyle{
+    height: 0.30rem;
+    margin-left: 40%;
+}
+
+.rightline{
+    height: 0.30rem;
+}
+.overlay-image {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .overlay-image.visible {
+    opacity: 1;
+  }
+  .fa-plus{
+    padding-top: 25%;
+    font-size: 5rem!important;
+    color: white;
+   padding-left: 40%;
+  }

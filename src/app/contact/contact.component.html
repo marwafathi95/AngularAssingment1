@@ -1,0 +1,35 @@
+<h1 class="text-center  ">CONATCT SECTION</h1>
+<div class="text-center d-flex align-items-center">
+  <div class="col-1 bg-dark  linestyle border-rounded text-center"></div>
+  <i class="fa-solid  fa-star  px-2"></i>
+  <div class="col-1 bg-dark rightline  border-rounded text-center"></div>
+</div>
+<div class="row">
+  <div class="col-3"></div>
+
+  <form class=" w-50 py-5">
+    <div class="mb-3">
+      <label for="username" class="form-label" style="visibility: hidden;">User Name</label>
+      <input type="text" (keyup)="showLabel($event)" autocomplete="off" class="form-control border-0 border-bottom"
+        placeholder="User Name">
+    </div>
+    <div class="mb-3">
+      <label for="userage" class="form-label" style="visibility: hidden;">User Age</label>
+      <input type="text" (keyup)="showLabel($event)" autocomplete="off" class="form-control border-0 border-bottom"
+        placeholder="User Age" id="userage">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label" style="visibility: hidden;">Email address</label>
+      <input type="email" (keyup)="showLabel($event)" autocomplete="off" class="form-control border-0 border-bottom"
+        placeholder="User Mail" id="email">
+
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label" style="visibility: hidden;">Password</label>
+      <input type="password" (keyup)="showLabel($event)" autocomplete="off" class="form-control border-0 border-bottom"
+        placeholder="User Password" id="password">
+    </div>
+
+    <button type="submit" class="btn btn-info">Send Message</button>
+  </form>
+</div>
